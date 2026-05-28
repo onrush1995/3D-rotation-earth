@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: #000;
+}
+
+#globe {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  touch-action: none;
+  cursor: grab;
+  background: radial-gradient(circle at 50% 40%, #141414 0%, #000 68%);
+}
